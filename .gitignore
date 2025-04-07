@@ -1,0 +1,41 @@
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 开发工具和IDE文件
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# 打包和分发相关文件
+dist/
+build/
+*.egg-info/
+*.egg
+*.spec
+
+# 项目特定文件
+*.xlsx
+*.pdf
+*.docx
+*.txt
+!requirements.txt
+*.json
+
+# 日志文件
+*.log
+logs/
+
+# 敏感信息
+api_config.json
+*.key
